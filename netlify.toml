@@ -1,6 +1,6 @@
 [build]
-command = 'hugo'
-publish = 'public'
+  command = "hugo --environment production"  # Update this line with the correct Hugo build command
+  publish = "public"
 
 [build.environment]
 HUGO_VERSION = '0.136.5'
